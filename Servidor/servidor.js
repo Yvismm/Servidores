@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 let server = http.createServer(app);
-server.listen(3000);
+server.listen(80);
 
 
 
